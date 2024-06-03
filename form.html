@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <title>day3</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img
+          src="dumbways1.png"
+          alt="dumbways1"
+          style="width: 25px; height: 25px"
+        />
+        <div class="nav-item">
+          <a style="text-decoration: none; color: black" href="index.html" target="_blank"
+            >Home</a
+          >
+          <a style="text-decoration: none; color: black" href="#">My Project</a>
+        </div>
+      </div>
+      <div class="nav-right">
+        <a href="#">Contact Me</a>
+      </div>
+    </nav>
+    <div>
+      <h2 style="text-align: center; font-weight: 600; margin-top: 50px">
+        ADD MY PROJECT
+      </h2>
+    </div>
+
+    <form id="formContact">
+      <div>
+        <label for="Name">Project Name</label>
+        <input type="text" id="Projectname"  placeholder="..." />
+      </div>
+      <div class="d-flex">
+        <div style="margin-right: 10px;">
+          <label for="Startdate">Start Date</label>
+          <input type="text" id="Startdate"  placeholder="..." />
+        </div>
+        <div>
+          <label for="Enddate">End date</label>
+          <input type="text" id="Enddate"  placeholder="..." />
+        </div>
+      </div>
+    <div>
+      <label for="Message">description</label>
+      <textarea id="Message"></textarea>
+    </div>
+      <!-- <div>
+        <label for="Nodejs">technologies</label>
+        <div class="d-flex" style=" margin-top: 5px;">
+            <div class="d-flex" style="margin-right: 10px;"> 
+                <input type="radio" id="Nodejs" 
+                       name="brand" value="nodejs" style="margin-right: 5px;"> 
+                <label for="nodejs">Nodejs</label>
+                <div class="d-flex" style="margin-right: 10px;"> 
+                  <input type="radio" id="nextjs" 
+                         name="brand" value="nextjs" style="margin-right: 5px;"> 
+                  <label for="nextjs">nextjs</label> 
+              </div> 
+          </div>
+          <div class="d-flex">
+              <div class="d-flex" style="margin-right: 10px;"> 
+                  <input type="radio" id="reactjs" 
+                         name="brand" value="reactjs" style="margin-right: 5px;"> 
+                  <label for="reactjs">reactjs</label> 
+              </div> 
+              <div class="d-flex" style="margin-right: 10px;"> 
+                  <input type="radio" id="typescript" 
+                         name="brand" value="typescript" style="margin-right: 5px;"> 
+                  <label for="typescript">typescript</label> 
+              </div> 
+          </div>        -->
+      </div>
+      <div class="button-container">
+        <button type="submit" class="submit-button" onclick="submitHandler" >
+          submit
+        </button>
+      </div>
+    </form>
+    <script src="assets/js/form.js"></script>
+  </body>
+</html>
